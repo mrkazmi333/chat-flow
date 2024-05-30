@@ -7,10 +7,19 @@ const NodeTypes = {
 };
 
 const DraggableNode = ({ type, label }) => {
+  /**
+   * Hook to enable dragging functionality for an element.
+   * Enables dragging of an element of the specified type.
+   * @returns {Array} An array containing state variables and a reference function for dragging.
+   */
   const [{ isDragging }, drag] = useDrag(() => ({
+    // Specifies the type of the dragged item
     type,
+    // Specifies the item to be dragged
     item: { type },
+    // Collects the dragging state from the drag-and-drop monitor
     collect: (monitor) => ({
+      // Indicates whether the item is currently being dragged
       isDragging: !!monitor.isDragging(),
     }),
   }));
@@ -29,8 +38,8 @@ const DraggableNode = ({ type, label }) => {
         gap: "10px",
         color: "#696dec",
         cursor: "move",
-        width: '150px',
-        borderRadius: '6px',
+        width: "150px",
+        borderRadius: "6px",
       }}
     >
       <MdMessage style={{ color: "#696dec" }} />
