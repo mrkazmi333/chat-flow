@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chat-flow/static/css/main.05fa6fb6.css",
+    "main.js": "/chat-flow/static/js/main.901c5451.js",
+    "static/js/453.9e770abf.chunk.js": "/chat-flow/static/js/453.9e770abf.chunk.js",
+    "index.html": "/chat-flow/index.html",
+    "main.05fa6fb6.css.map": "/chat-flow/static/css/main.05fa6fb6.css.map",
+    "main.901c5451.js.map": "/chat-flow/static/js/main.901c5451.js.map",
+    "453.9e770abf.chunk.js.map": "/chat-flow/static/js/453.9e770abf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05fa6fb6.css",
+    "static/js/main.901c5451.js"
+  ]
+}
