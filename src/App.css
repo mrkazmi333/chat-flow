@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.panel-header {
+  display: flex;
+  height: 60px;
+  padding: 12px;
+  background-color: #ebebeb;
+  width: 100%;
+}
+
+.panel-header_save-btn {
+  border-radius: 6px;
+  padding: 12px;
+  background-color: #fff;
+  color: #696dec;
+  border: 1px solid #696dec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.panel-header-error {
+  columns: #000;
+  background-color: rgb(191, 138, 147);
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-left: auto;
+}
+
+.dnd-container {
+  display: flex;
+  height: 100vh;
+}
+
+.nodes-panel, .settings-panel {
+  width: 200px;
+  padding: 16px;
+  border-right: 1px solid #ddd;
+  background: #f4f4f4;
+}
+
+.flow-container {
+  flex: 1;
+  position: relative;
+}
+
+.react-flow__node {
+  background: white;
+  color: black;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  text-align: left;
+}
